@@ -1271,6 +1271,11 @@ body.top_padding{
     -o-transition: .25s;
     transition: .25s;
 }
+
+.services .service_details a{
+    text-decoration: underline; 
+    color: #4F5F8B;
+}
 .services .service_item:hover h4{
     color: #4F5F8B;
 }
