@@ -573,7 +573,7 @@ body.top_padding{
 ----------------------------------------------*/
 .section_header{
     text-align: center;
-    max-width: 500px;
+    /* max-width: 500px; */
     margin: 0 auto;
 }
 .section_header h2{
@@ -644,12 +644,13 @@ body.top_padding{
 }
 .navbar-nav>li>a:hover{
     background: transparent;
-    color: #009bde;
+    color: #4F5F8B;
 
 }
 .navbar-nav > .active a{
     background: transparent;
-    color: #009bde;
+    color: #4F5F8B;
+    font-weight: bold;
 }
 
 /*	05	- Header Two
@@ -743,12 +744,12 @@ body.top_padding{
     background-color: transparent;
 }
 .header_two .left_menu .active{
-    background-color: #009bde;
+    background-color: #4F5F8B;
     color: #fff;
     margin-top: -1px;
 }
 .header_two .left_menu .active .menu_item{
-    border-bottom: 1px solid #009bde;
+    border-bottom: 1px solid #4F5F8B;
 }
 .header_two .left_menu .active .menu_icon, .header_two .left_menu .active h4, .header_two .left_menu .active p{
     color: #fff;
@@ -812,7 +813,7 @@ body.top_padding{
     font-family: 'Poppins', sans-serif;
     font-size: 72px;
     line-height: 90px;
-    color: #009bde;
+    color: #4F5F8B;
     text-transform: uppercase;
 }
 .banner .banner_content p{
@@ -843,7 +844,7 @@ body.top_padding{
     transition: .25s;
 }
 .banner .banner_social li a:hover{
-    background-color: #009bde;
+    background-color: #4F5F8B;
 }
 .banner .banner_social li a:hover i{
     -webkit-animation-name: gt_animation;
@@ -859,10 +860,10 @@ body.top_padding{
     text-align: left;
 }
 .about .section_header h2{
-    color: #009bde;
+    color: #4F5F8B;
 }
 .about .section_header h2:before{
-	background-color: #009bde;
+	background-color: #4F5F8B;
 	left: 40px;
 }
 .about .about_details p{
@@ -922,7 +923,7 @@ body.top_padding{
     margin: 0;
 }
 .about .about_job ul > li > .icon{
-    color: #009bde;
+    color: #4F5F8B;
 }
 .about .about_job ul > li > .icon:before{
     display: block;
@@ -941,7 +942,7 @@ body.top_padding{
     transition: .5s;
 }
 .about .about_job ul > li:hover{
-    background-color: #009bde;
+    background-color: #4F5F8B;
     color: #fff;
 }
 .about .about_job ul > li:hover .icon{
@@ -984,7 +985,7 @@ body.top_padding{
     overflow: inherit;
 }
 .about .about_skills .progress-bar{
-    background-color: #009bde;
+    background-color: #4F5F8B;
     position: relative;
     border-radius: 15px;
     transition: width .6s ease;
@@ -996,7 +997,7 @@ body.top_padding{
     height: 22px;
     width: 22px;
     border-radius: 100%;
-    background-color: #009bde;
+    background-color: #4F5F8B;
     -webkit-box-shadow: -2px 0px 1px -2px #000;
     -moz-box-shadow: -2px 0px 1px -2px #000;
     box-shadow: -2px 0px 1px -2px #000;
@@ -1013,7 +1014,7 @@ body.top_padding{
 }
 .about .about_skills .progress_percent{
     float: right;
-    color: #009bde;
+    color: #4F5F8B;
 }
 
 /*	08	- Resume Section
@@ -1065,11 +1066,11 @@ body.top_padding{
     margin-bottom: 8px;
 }
 .resume .experience p span{
-    color: #009bde;
+    color: #4F5F8B;
     font-weight: 700;
 }
 .resume .experience:hover h4{
-    color: #009bde;
+    color: #4F5F8B;
 }
 .resume .experience .ex_details{
     font-size: 16px;
@@ -1181,7 +1182,7 @@ body.top_padding{
     opacity: 0;
 }
 .portfolio .port_caption a:hover{
-    background-color: #009bde;
+    background-color: #4F5F8B;
     color: #fff;
 }
 .portfolio .portfolio_item:hover a{
@@ -1202,7 +1203,7 @@ body.top_padding{
     text-decoration: none;
 }
 .sb-nav a:hover{
-    background-color: #009bde;
+    background-color: #4F5F8B;
     
 }
 
@@ -1268,11 +1269,11 @@ body.top_padding{
     transition: .25s;
 }
 .services .service_item:hover h4{
-    color: #009bde;
+    color: #4F5F8B;
 }
 .services .service_item:hover .service_icon{
-    background-color: #009bde;
-    border: 1px solid #009bde;
+    background-color: #4F5F8B;
+    border: 1px solid #4F5F8B;
     
 }
 .services .service_item:hover .service_icon:before{
@@ -1316,7 +1317,7 @@ body.top_padding{
     display: block;
 }
 .blog .content h4 a:hover{
-    color: #009bde;
+    color: #4F5F8B;
 }
 .blog .content p{
     margin-bottom: 15px;
@@ -1365,7 +1366,7 @@ body.top_padding{
     margin: 5px 0px 15px;
 }
 .single_post .post_content blockquote:after{
-    color: #009bde;
+    color: #4F5F8B;
 }
 .single_post .post_content .post_tags{
     float: left;
@@ -1408,7 +1409,7 @@ body.top_padding{
     transition: .25s;
 }
 .single_post .post_content .post_share li a:hover{
-    background-color: #009bde;
+    background-color: #4F5F8B;
 }
 .post_comment{
     margin-bottom: 40px;
@@ -1497,7 +1498,7 @@ body.top_padding{
     line-height: 24px;
     text-transform: uppercase;
     color: #fff;
-    background-color: #009bde;
+    background-color: #4F5F8B;
     padding: 11px 36px;
     margin-top: 10px;
     -webkit-transition: .25s;
@@ -1548,7 +1549,7 @@ body.top_padding{
     text-decoration: none;
 }
 .sidebar_category li a:hover{
-    color: #009bde;
+    color: #4F5F8B;
 }
 .sidebar_category li a span{
     float: right;
@@ -1577,7 +1578,7 @@ body.top_padding{
     text-decoration: none;
 }
 .sidebar_posts .post_content h5 a:hover{
-    color: #009bde;
+    color: #4F5F8B;
 }
 
 .tweet_item{
@@ -1591,7 +1592,7 @@ body.top_padding{
 .tweet_item .tweet_icon{
     float: left;
     margin-right: 20px;
-    color: #009bde;
+    color: #4F5F8B;
 }
 .tweet_item .tweet_icon span{
     font-size: 46px;
@@ -1619,7 +1620,7 @@ body.top_padding{
     margin: 0;
 }
 .tweet_item .tweet_content > a{
-    color: #009bde;
+    color: #4F5F8B;
     font-size: 16px;
     text-decoration: none;
     display: block;
@@ -1642,7 +1643,7 @@ body.top_padding{
     margin: 4px;
 }
 .sidebar_tags li a:hover{
-    background-color: #009bde;
+    background-color: #4F5F8B;
     color: #fff;
 }
 
@@ -1794,7 +1795,7 @@ body.top_padding{
     margin: 0;
 }
 .pricing .pricing_item:hover .pricing_icon{
-    background-color: #009bde;
+    background-color: #4F5F8B;
 }
 .pricing .pricing_item:hover .pricing_icon:before{
     color: #fff;
@@ -1881,7 +1882,7 @@ body.top_padding{
     margin: 0;
 }
 .contact .contact_item:hover .contact_icon{
-    background-color: #009bde;
+    background-color: #4F5F8B;
 }
 .contact .contact_item:hover .contact_icon:before{
     color: #fff;
@@ -1916,7 +1917,7 @@ body.top_padding{
 }
 .contact .contact_submit{
     width: 100%;
-    background-color: #009bde;
+    background-color: #4F5F8B;
     color: #fff;
     text-transform: uppercase;
     border-radius: 3px;
@@ -1985,7 +1986,7 @@ footer p a:hover {
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    background-color: #009bde;
+    background-color: #4F5F8B;
     opacity: 0.6;
     position: absolute;
     top: 0;
