@@ -1249,7 +1249,8 @@ body.top_padding{
     -o-transition: .5s ;
     transition: .5s ;
     padding-top: 4px ;
-    color: #4F5F8B;
+    padding-left: 2px ;
+    color: #4F5F8B ;
 }
 .services .service_icon:before{
     display: block;
